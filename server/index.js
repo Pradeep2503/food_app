@@ -14,7 +14,7 @@ app.use(express.urlencoded({limit:'100mb',extended:true}));
 
 
 
-mongoose.connect('mongodb://localhost:27017/crud');
+mongoose.connect( 'mongodb+srv://rspj2503:Pradeep@2503@cluster0.kkphjjl.mongodb.net/?retryWrites=true&w=majority');
 
 // app.get('/',async (req,res)=>{
 //     try {
